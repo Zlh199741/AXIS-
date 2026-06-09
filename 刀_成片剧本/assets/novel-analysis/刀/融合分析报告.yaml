@@ -1,0 +1,109 @@
+project:
+  title: "刀"
+  type: "社会议题反转短片"
+  duration_target: "3-5分钟"
+  episodes: 1
+  source: "成片版剧本_刀_定稿.md"
+
+style:
+  visual: "生活真实 + 方言节奏 + 网暴升级 + 真相反转 + 结尾余震"
+  tone: "写实生活流 → 认知反转 → 余震"
+  dialect: "四川方言"
+
+characters:
+  total: 3
+  list:
+    - name: "老公"
+      role: "男主/施害者视角"
+      age: "三十多岁"
+      occupation: "普通上班族"
+      trait: "脾气直，容易被情绪带着走"
+      arc: "义愤 → 加码 → 合理化 → 击穿 → 悔恨 → 崩溃"
+      key_lines:
+        - "骂得轻了。"
+        - "扒错了再道歉嘛。"
+        - "我以为我在拿刀砍坏人。"
+        - "刀上全是好人的血。"
+
+    - name: "老婆"
+      role: "女主/理性之锚"
+      age: "三十多岁"
+      trait: "务实清醒，不高声说教但每句话都能刹车"
+      arc: "劝阻 → 沉默 → 精准刺穿 → 心疼落泪"
+      key_lines:
+        - "网上的事情，现在反转多得很。"
+        - "转也是在推她下去。"
+        - "你不是在等真相。你是在等更多人证明你骂得对。"
+        - "也是别人家的娃儿。"
+
+    - name: "手机里的女生"
+      role: "被害者"
+      appearance: "瘦，穿洗得发白的校服外套"
+      presence: "仅通过手机屏幕/新闻视频/灵堂视频出现"
+      key_lines:
+        - "不是我……"
+        - "他救了我们……"
+        - "我这辈子都还不起……"
+
+scenes:
+  total: 7
+  list:
+    - id: "SC01"
+      name: "夜晚·家里饭桌"
+      function: "建置冲突"
+      time: "第一天晚上"
+    - id: "SC02"
+      name: "第二天早上·地铁"
+      function: "升级（转发+人肉）"
+      time: "第二天早上"
+    - id: "SC03"
+      name: "第二天中午·公司茶水间"
+      function: "合理化顶点"
+      time: "第二天中午"
+    - id: "SC04"
+      name: "第二天晚上·家里"
+      function: "妻子警告+认知预穿透"
+      time: "第二天晚上"
+    - id: "SC05"
+      name: "第三天早上·卧室"
+      function: "真相反转"
+      time: "第三天早上"
+    - id: "SC06"
+      name: "第三天上午·客厅"
+      function: "不可逆后果"
+      time: "第三天上午"
+    - id: "SC07"
+      name: "第三天上午·家里饭桌"
+      function: "情感崩溃+终极重击"
+      time: "第三天上午"
+
+analysis_summary:
+  abc_score:
+    a_external_conflict: 8
+    b_internal_growth: 13
+    c_emotional_resonance: 8
+    total: 29
+    five_star_count: 11
+  b_completeness: "5/5 = 100%"
+  structure: "三段式"
+  structure_detail:
+    setup: "SC01-SC03（蓄能/升级）"
+    pivot: "SC04（妻子警告）"
+    payoff: "SC05-SC07（反转/崩溃）"
+  core_design: "前半段让观众和老公站在同一边（共同义愤），后半段一起被击穿——观众也是拿刀的人"
+
+compliance:
+  verdict: "PASS"
+  risk_level: "低风险"
+  caution_items: 3
+  critical_items: 0
+
+key_props:
+  - "手机（核心道具，贯穿全片）"
+  - "饭桌/饭菜（家庭锚点场景道具）"
+  - "手机屏幕内容（新闻/评论/微信/热搜）"
+  - "小卖部手写停业纸"
+  - "灵堂元素（白花/黑布/遗像/香火）"
+  - "裂屏手机"
+
+next_step: "集纲生成（1集短片） → 导演分析 → 视觉风格 → 服化道 → 分镜"
